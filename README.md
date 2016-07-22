@@ -21,7 +21,7 @@ Read my [blog post](http://www.huguedata.com/2016/04/28/oscar-bait-a-scientific-
 ### Data:
 Movie data were scraped from [Box Office Mojo](http://www.boxofficemojo.com/) and matched to the [Open Movie Database (OMDB) API](http://www.omdbapi.com/) using their search query. Scraped box office mojo with matched OMDB data are pickled as lists of dictionaries here: *data/movie_data_raw_YYYY.pickle* (where YYYY represents the year of film release).
 
-Additionally, the file **data/movie_data_clean.pickle** contains the raw movie data from all years cleaned and formatted as a pandas dataframe, and **data/genre_counts.csv and **data/genre_counts_coded.csv** contain Box Office Mojo movie categories grouped (by hand) into more general categories.
+Additionally, the file *data/movie_data_clean.pickle* contains the raw movie data from all years cleaned and formatted as a pandas dataframe, and *data/genre_counts.csv* and *data/genre_counts_coded.csv* contain Box Office Mojo movie categories grouped (by hand) into more general categories.
 
 
 ### Python Scripts, IPyhon Notebooks, and Program Flow:
