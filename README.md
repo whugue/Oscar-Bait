@@ -25,10 +25,10 @@ Additionally, the file *data/movie_data_clean.pickle* contains the raw movie dat
 
 
 ### Python Scripts, IPyhon Notebooks, and Program Flow:
-1. *movie_scrape.py*: Scrape data from Box Office Mojo and match to OMDB API.
-2. *movie_clean.ipynb*: Clean scraped movie data and engineer features.
-3. *movie_describe.ipynb*: Descritive statistics for Oscar Bait movie analysis.
-4. *movie_model.ipynb*: Linear regression models for Oscar Bait movie analysis.
+1. *01-Movie-Scrape.py*: Scrape data from Box Office Mojo and match to OMDB API.
+2. *02-Movie-Clean.ipynb*: Clean scraped movie data and engineer features.
+3. *03-Movie-Describe.ipynb*: Descritive statistics for Oscar Bait movie analysis.
+4. *04-Movie-Model.ipynb*: Linear regression models for Oscar Bait movie analysis.
 
 ### Other Fun Stuff
 1. *graphics/* : Graphics produced from descriptive analysis.
