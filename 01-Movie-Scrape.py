@@ -1,6 +1,11 @@
 
+
 """
-Scrape data from BoxOfficeMojo.com and Match to Data Pulled from OMDB API
+Script:     01-Movie-Scrape.py
+Purpose:    Scrape data from boxofficemojo.com and match to data pulled from Open Mobie Database (OMDB) API
+Input:      Pages from boxofficemojo.com
+			Movie data pulled from OMDB API
+Output:    	data/movie_data_raw_YYYY.pickle 
 """
 
 import re
@@ -10,7 +15,7 @@ import omdb
 import pickle
 
 
-def scrape_value(soup,regex):
+def scrape_value(soup, regex):
 	return soup.find(text=re.compile(regex)).findNextSibling().text.strip()
 
 def clean_runtime(raw_value):
@@ -200,7 +205,7 @@ def scrape_years(start_year,stop_year):
 
 
 #Scrape Analysis Years in Batches
-scrape_years(2015,2015)
+scrape_years(2005,2015)
 
 
 
