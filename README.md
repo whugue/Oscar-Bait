@@ -3,7 +3,6 @@ Do films with [Oscar Bait](https://en.wikipedia.org/wiki/Oscar_bait) characteris
 
 Read my [blog post](http://www.huguedata.com/2016/04/28/oscar-bait-a-scientific-investigation/) on the matter to learn more!
 
-
 ### Program Flow
 The table below provides high-level overviews of what each analysis script does. More information (including specific input/ouput data) can be found in each script's header.
 
@@ -13,7 +12,3 @@ Program 	| Description |
 02-Movie-Clean.ipynb | Clean scraped movie data and engineer features.
 03-Movie-Describe.ipynb | Descritive statistics for Oscar Bait movie analysis.
 04-Movie-Model.ipynb | Linear regression models for Oscar Bait movie analysis.
-
-
-### Dependencies
-NumPy, Pandas, Sci-Kit Learn, Matplotlib, Seaborn, StatsModels, re, requests, BeautifulSoup, omdb (wapper for OMDB API), Pickle
